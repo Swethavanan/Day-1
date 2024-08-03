@@ -1,0 +1,18 @@
+Variables
+Operators
+Datatypes
+Alerts,Prompt,confirm
+
+Variables: It is name given to memory location
+=> Var 
+=> let 
+=> const
+
+var:-
+=>It is a keyword to declare a Variables
+=>It can be redeclared and reassigned
+ex:-
+var a=10;
+a=20 ;//reassigne
+var a=30; //redeclare
+console.log(a);
