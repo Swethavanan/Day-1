@@ -1,18 +1,105 @@
+DAY-2 
+
 Variables
 Operators
 Datatypes
 Alerts,Prompt,confirm
 
-Variables: It is name given to memory location
+Variables: It is name given to memory location.
 => Var 
 => let 
 => const
 
 var:-
-=>It is a keyword to declare a Variables
-=>It can be redeclared and reassigned
-ex:-
+=>It is a keyword to declare a Variables.
+=>It can be redeclared and reassigned.
+var ex:-
 var a=10;
 a=20 ;//reassigne
 var a=30; //redeclare
 console.log(a);
+
+let:-
+=>It is a keyword to declare a Variables.
+=>It can be only reassigned.
+let ex:-
+let a=30;
+a=40; //reassign
+console.log(a);
+
+const:-
+=>It is a keyword to declare a Variables.
+=>It cannot be reassigned and redeclare.
+const ex:-
+const a=20
+a=30; //no reassign
+const=40; //no redeclare
+console.log(a);
+
+Operator:-
+=>Arithemetic operator: +,-,*,/,%
+=>Assignment operator: = 
+=>Conditional operator:<,>,<=,>=,!=,!==,==,===
+=>Logical operator: &, ||
+
+Alert:-
+alert("welcome to google")
+
+Prompt:-
+-prompt("enter your name");
+-let result=prompt("enter your name");
+console.log(result);  //shows the name entered in the text box
+
+confirm:-
+-let result=confirm("this is the website?");
+console.log(result);  //shows true or false in console
+
+Datatypes:-
+-String
+-Numbers
+-Boolean 
+-Null 
+-undefined 
+-Bignint 
+-symbol
+-object 
+-Array 
+-function 
+
+undefined:-
+=>If the variables is declared but the value is not assigned, then value of the variables is not defined.
+=>The datatype is also undefined.
+ex:-
+let a; //undefined
+console.log(a); 
+
+Null:-
+=>Null is a special value that represents empty or unknown value.
+=>The type of null will be an object.
+=>It is a known bug in javascript.
+=>javascript defined that null is equal to undefined.
+ex:-
+let num=null;
+console.log(num); //null
+console.log(typeof(num));
+
+Object:-
+=>Object is a collection of properties.
+=>object are structured with key value pairs.
+=>object do not have index.
+syntax:
+var/let/const objectname={
+    keyname=value
+}
+ex:-
+let person={
+    firstname:"swe",
+    lastname:"m",
+    age:24,
+    skill:["javascript","html","css"]
+}
+console.log(person)
+
+
+
+
